@@ -197,7 +197,7 @@ body {
 .header__container {
 	min-height: 90px;
 	display: flex;
-	background: url('./assets/img/bg.jpg');
+	background: url('./assets/img/bg.webp');
   	background-repeat: no-repeat;
  	background-position: center 0;
 }
@@ -234,10 +234,8 @@ body {
 	}
 }
 .header__logo:hover {
-.header__logo:hover {
 	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 	cursor: pointer; 
-}
 }
 .header__group {
 	display: flex;
@@ -428,7 +426,7 @@ body {
 
 .hero {
 	min-height: 820px;
-	background-image: url('./assets/img/bg.jpg');
+	background-image: url('./assets/img/bg.webp');
 	background-position: center -90px;
 	background-repeat: no-repeat;
 	padding: 160px 0px 0px 80px;
@@ -444,7 +442,7 @@ body {
 @media (max-width: 320px) {
 	.hero {
 		min-height: 400px;
-		background: url('./assets/img/bg--small.jpg'); 
+		background: url('./assets/img/bg--small.webp'); 
 		background-position: -330px -90px;
 		background-repeat: no-repeat;
 		padding: 30px 0px 0px 20px;
@@ -678,7 +676,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/* background-image: url('./assets/img/video-player.jpg'); 
+	/* background-image: url('./assets/img/video-player.webp'); 
 	background-size: cover;*/
 	/* width: 100%; */
 	min-height: 705px;
@@ -686,7 +684,7 @@ body {
 @media (max-width: 768px){	
 	.video__player {
 		min-height: 418px;
-		/* background-image: url('./assets/img/video-player--small.jpg');
+		/* background-image: url('./assets/img/video-player--small.webp');
 		background-repeat: no-repeat;
 		background-size: cover; */
 	}
@@ -722,7 +720,7 @@ body {
 	top: 0;
 	bottom: 0;
 	z-index: 2;
-	background-image: url('./assets/img/video-player.jpg');
+	background-image: url('./assets/img/video-player.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -952,7 +950,7 @@ body {
 /*Contacts-------------------------------------------*/
 
 .contacts {
-	background-image: url("./assets/img/contacts.jpg");
+	background-image: url("./assets/img/contacts.webp");
 	background-size: auto 700px;
 	background-position: center center;
 	min-height: 700px;
