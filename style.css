@@ -1057,6 +1057,7 @@ textarea {
 /*Footer-------------------------------------------*/
 
 .footer {
+	position: relative;
 }
 .footer__container {
 	display: flex;
@@ -1125,6 +1126,11 @@ textarea {
 .footer__social-link:hover {
 	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 	cursor: pointer;
+}
+.w3c {
+	position: absolute;
+	left: 0;
+	bottom: -10px;
 }
 /*Arrow-up------------------------------------------*/
 .arrow__up{
